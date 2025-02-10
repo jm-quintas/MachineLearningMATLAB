@@ -24,3 +24,5 @@ y = mytable.Ydata;
 ```
 
 Esto ***extrae la variable Xdata de la tabla mytable y almacena el resultado en una nueva variable llamada x***. De manera similar, la variable Ydata se extrae en y.
+
+### Tarea 2. Visualice la letra representando la variable X de letter en el eje horizontal y la variable Y en el eje vertical.
