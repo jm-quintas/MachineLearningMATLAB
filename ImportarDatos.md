@@ -36,3 +36,7 @@ plot(X, Y)
 ```
 
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-09%2022-35-28.png)
+
+Los límites de eje predeterminados distorsionan la relación de aspecto de la letra. Puede usar el comando ***axis*** para forzar los ejes de forma que se conserve la relación de aspecto de los datos.
+
+### Tarea 3. Use el comando axis equal para corregir la relación de aspecto de la representación.
