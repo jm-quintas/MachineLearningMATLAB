@@ -58,4 +58,4 @@ letter = readlatble("M.txt");
 plot(letter.X, letter.Y)
 axis equal
 ```
-![]()
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-09%2022-55-34.png)
