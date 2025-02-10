@@ -67,4 +67,4 @@ letter = readtable("V.txt")
 plot(letter.X, letter.Y)
 axis equal
 ```
-!()[]
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-09%2023-00-22.png)
