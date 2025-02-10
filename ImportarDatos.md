@@ -49,4 +49,4 @@ Y = letter.Y;
 plot(X, Y)
 axis equal
 ```
-![]()
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-09%2022-43-40.png)
