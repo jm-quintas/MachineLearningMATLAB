@@ -40,3 +40,13 @@ plot(X, Y)
 Los límites de eje predeterminados distorsionan la relación de aspecto de la letra. Puede usar el comando ***axis*** para forzar los ejes de forma que se conserve la relación de aspecto de los datos.
 
 ### Tarea 3. Use el comando axis equal para corregir la relación de aspecto de la representación.
+
+```MatLab
+X = letter.X;
+
+Y = letter.Y;
+
+plot(X, Y)
+axis equal
+```
+![]()
