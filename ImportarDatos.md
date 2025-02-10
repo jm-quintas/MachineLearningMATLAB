@@ -14,4 +14,4 @@ Esto importa los datos de la hoja de cálculo myfile.xlsx y los almacena en una 
 letter = readtable("J.txt")
 ```
 
-[Tabla J.txt](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-09%2022-22-08.png)
+![Tabla J.txt](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-09%2022-22-08.png)
