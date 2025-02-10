@@ -50,3 +50,12 @@ plot(X, Y)
 axis equal
 ```
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-09%2022-43-40.png)
+
+### Tarea 4. Repita las mismas tareas de importación y representación para los datos del archivo M.txt.
+
+```MatLab
+letter = readlatble("M.txt");
+plot(letter.X, letter.Y)
+axis equal
+```
+![]()
