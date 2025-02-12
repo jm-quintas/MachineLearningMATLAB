@@ -7,4 +7,4 @@ Official Web site: https://matlabacademy.mathworks.com/es/details/machine-learni
 | Unidad | Contenido | Repositorio |
 | :----: | :----: | :----: |
 | 1 | Importe los datos | [Repositorio](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/ImportarDatos.md) |
-| 2 | Procesar datos | [Repositorio]() |
+| 2 | Procesar datos | [Repositorio](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/ProcesarDatos.md) |
