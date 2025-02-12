@@ -28,3 +28,12 @@ finalX = data.XVal(end);
 ```
 
 ### Tarea 2.  Cambie la variable Time de la tabla letter para que comience en 0 restando el primer valor de todos los elementos. Divida el resultado entre 1000 para convertirlo en segundos. Reasigne el resultado de nuevo a Time para que letter contenga los datos ajustados.
+
+```MatLab
+letter = readtable("M.txt")
+
+letter.Time = letter.Time - letter.Time(1)
+
+plot(letter.Time, letter.X)
+```
+Sol:  
