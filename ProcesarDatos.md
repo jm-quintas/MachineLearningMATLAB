@@ -23,3 +23,6 @@ Sol:
 
 Puede ***indexar en las variables de una tabla***, al igual que con cualquier variable. En programación, ***indexar*** **se refiere a la acción de asignar un índice numérico a cada elemento de una estructura de datos, como una matriz o una lista**. Este índice permite acceder a cada elemento de manera individual y eficiente.
 
+```MatLab
+finalX = data.XVal(end);
+```
