@@ -47,6 +47,7 @@ letter = readtable("M.txt")
 letter.Time = letter.Time - letter.Time(1)
 letter.Time = letter.Time / 1000
 
-plot(letter.Time, letter.X)
 plot(letter.Time, letter.Y)
 ```
+Sol: 
+![]()
