@@ -6,3 +6,18 @@ Puede ***usar la notación de puntos para extraer, modificar y reasignar variabl
 x = x + 3;
 data.XVal = data.XVal + 3;
 ```
+
+### Tarea 1.  Multiplique los valores de la variable X de la tabla letter por la relación de aspecto 1,5. Reasigne el resultado de nuevo a X para que letter contenga los datos corregidos.
+
+```MatLab
+letter = readtable("M.txt")
+
+% Solución de la tarea:
+letter.X = 1.5*letter.X;
+
+plot(letter.X,letter.Y)
+axis equal
+```
+Sol:  
+![]()
+
