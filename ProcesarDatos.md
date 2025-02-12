@@ -19,5 +19,5 @@ plot(letter.X,letter.Y)
 axis equal
 ```
 Sol:  
-![]()
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2013-21-47.png)
 
