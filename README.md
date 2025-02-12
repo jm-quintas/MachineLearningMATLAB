@@ -8,4 +8,4 @@ Official Web site: https://matlabacademy.mathworks.com/es/details/machine-learni
 | :----: | :----: | :----: |
 | 1 | Importe los datos | [Repositorio](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/ImportarDatos.md) |
 | 2 | Procesar datos | [Repositorio](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/ProcesarDatos.md) |
-| 3 | Extraer características | []() |
+| 3 | Extraer características | [](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/ExtraerCaracteristicas.md) |
