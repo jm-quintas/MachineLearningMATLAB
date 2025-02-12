@@ -21,3 +21,5 @@ axis equal
 Sol:  
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2013-21-47.png)
 
+Puede ***indexar en las variables de una tabla***, al igual que con cualquier variable. En programación, ***indexar*** **se refiere a la acción de asignar un índice numérico a cada elemento de una estructura de datos, como una matriz o una lista**. Este índice permite acceder a cada elemento de manera individual y eficiente.
+
