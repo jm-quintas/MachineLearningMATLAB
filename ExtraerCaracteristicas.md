@@ -18,3 +18,14 @@ dur = letter.Time(end)
 ```
 dur = 0.6080
 ```
+
+La función ***range*** **devuelve el rango de valores de un arreglo**. Es decir, range(x) es equivalente a max(x) - min(x).
+
+### Tarea 2. Utilice la función range para calcular la relación de aspecto de la letra dividiendo el rango de valores de letter.Y entre el rango de valores de letter.X. Asigne el resultado a una variable llamada aratio.
+
+```MatLab
+aratio = range(letter.Y) / range(letter.X)
+```
+```
+aratio = 1.1228
+```
