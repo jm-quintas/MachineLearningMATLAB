@@ -40,3 +40,13 @@ Sol:
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2014-51-49.png)
 
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2014-52-52.png)
+
+```MatLab
+letter = readtable("M.txt")
+
+letter.Time = letter.Time - letter.Time(1)
+letter.Time = letter.Time / 1000
+
+plot(letter.Time, letter.X)
+plot(letter.Time, letter.Y)
+```
