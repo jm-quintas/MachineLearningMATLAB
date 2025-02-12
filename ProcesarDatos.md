@@ -50,4 +50,5 @@ letter.Time = letter.Time / 1000
 plot(letter.Time, letter.Y)
 ```
 Sol: 
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2015-01-01.png)
 ![]()
