@@ -37,3 +37,5 @@ letter.Time = letter.Time - letter.Time(1)
 plot(letter.Time, letter.X)
 ```
 Sol:  
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2014-51-49.png)
+
