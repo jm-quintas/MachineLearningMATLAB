@@ -43,3 +43,19 @@ predictions = predict(knnmodel, testdata)
 
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2023-27-16.png)
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/outliers.png)
+
+Puede especificar el valor de k en un ***modelo kNN*** estableciendo la propiedad "NumNeighbors" al llamar a ***fitcknn***.
+
+```MatLab
+mdl = fitcknn(data,"ResponseVariable",...
+"NumNeighbors",10);
+```
+
+### Tarea 2. Repita los comandos de las dos tareas anteriores, pero use la opción "NumNeighbors" para cambiar el número de vecinos del modelo a 5.
+
+```MatLab
+knnmodel = fitcknn(features,"Character","NumNeighbors",5)
+predictions = predict(knnmodel,testdata)
+```
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2023-40-34.png)
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2023-40-19.png)
