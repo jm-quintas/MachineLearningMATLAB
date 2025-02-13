@@ -29,3 +29,17 @@ aratio = range(letter.Y) / range(letter.X)
 ```
 aratio = 1.1228
 ```
+
+El archivo MAT ***featuredata.mat*** contiene una tabla de las características extraídas de 470 letras escritas por diversas personas. La tabla features tiene tres variables: ***AspectRatio*** y ***Duration*** (las dos características calculadas en la sección anterior), y Character (la letra conocida).
+
+### Tarea 3. Utilice la función scatter para representar las características extraídas, con la relación de aspecto en el eje horizontal y la duración en el eje vertical.
+
+```MatLab
+load featuredata.mat
+features
+
+scatter(features.AspectRatio, features.Duration)
+```
+![]()
+
+![]()
