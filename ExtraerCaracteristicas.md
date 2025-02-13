@@ -40,6 +40,6 @@ features
 
 scatter(features.AspectRatio, features.Duration)
 ```
-![]()
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2022-22-47.png)
 
-![]()
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2022-23-09.png)
