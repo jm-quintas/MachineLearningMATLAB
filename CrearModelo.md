@@ -40,3 +40,6 @@ Las entradas son el modelo entrenado y una tabla de observaciones, con las misma
 predictions = predict(knnmodel, testdata)
 ```
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2023-23-48.png)
+
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2023-27-16.png)
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/outliers.png)
