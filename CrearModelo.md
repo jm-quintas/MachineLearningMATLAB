@@ -34,3 +34,9 @@ predClass = predict(model,newdata)
 
 Las entradas son el modelo entrenado y una tabla de observaciones, con las mismas variables de predicción que se utilizaron para entrenar el modelo. La salida es un arreglo categórico de la clase predicha para cada observación de ***newdata***. El archivo ***featuredata.mat*** contiene una tabla ***testdata*** que tiene las mismas variables que ***features***. Sin embargo, las observaciones de ***testdata*** no están incluidas en ***features***. Observe que ***testdata*** contiene observaciones para las que se conoce la clase correcta (almacenada en la variable ***Character***). Esto ofrece una forma de probar el modelo comparando las clases predichas por el modelo con las clases reales. La función ***predict*** ignorará la variable ***Character*** cuando haga predicciones a partir del modelo.
 
+### Tarea 1. Utilice la función predict con el modelo entrenado knnmodel para clasificar las letras de la tabla testdata. Almacene las predicciones en una variable llamada predictions.
+
+```MatLab
+predictions = predict(knnmodel, testdata)
+```
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2023-23-48.png)
