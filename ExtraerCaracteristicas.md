@@ -43,3 +43,15 @@ scatter(features.AspectRatio, features.Duration)
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2022-22-47.png)
 
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2022-23-09.png)
+
+No está claro si estas características son suficientes para distinguir las tres letras del conjunto de datos (J, M y V). La función ***gscatter*** **crea un diagrama de dispersión agrupado**, es decir, un diagrama de dispersión en el que los puntos están coloreados según una variable de agrupación.
+
+***gscatter(x,y,g)***
+
+### Tarea 4. Utilice la función gscatter para crear el mismo diagrama de dispersión que antes, pero coloreado según la letra, que se almacena en la variable Character de la tabla features.
+
+```MatLab
+gscatter(features.AspectRatio, features.Duration, features.Character)
+```
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-12%2022-33-22.png)
+
