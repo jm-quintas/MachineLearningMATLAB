@@ -21,3 +21,11 @@ iscorrect = predictions == testdata.Character
 ```
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2015-22-04.png)
 
+### Tarea 2. Calcule la proporción de predicciones correctas dividiendo el número de predicciones correctas entre el número total de predicciones. Almacene el resultado en una variable llamada *accuracy*. Puede utilizar la función *sum* para determinar el número de predicciones correctas y la función *numel* para determinar el número total de predicciones.
+
+```MatLab
+accuracy = sum(iscorrect)/numel(predictions)
+```
+```
+accuracy = 0.8000
+```
