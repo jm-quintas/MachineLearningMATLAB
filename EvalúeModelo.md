@@ -14,7 +14,7 @@ testdata
 knnmodel = fitcknn(features,"Character","NumNeighbors",5);
 predictions = predict(knnmodel,testdata)
 ```
-![]()
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2015-21-53.png)
 
 ```MatLab
 iscorrect = predictions == testdata.Character
