@@ -19,5 +19,5 @@ predictions = predict(knnmodel,testdata)
 ```MatLab
 iscorrect = predictions == testdata.Character
 ```
-![]()
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2015-22-04.png)
 
