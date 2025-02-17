@@ -29,3 +29,8 @@ accuracy = sum(iscorrect)/numel(predictions)
 ```
 accuracy = 0.8000
 ```
+
+En lugar de la precisión (la proporción de predicciones correctas), una métrica comúnmente utilizada para evaluar un modelo es la tasa de clasificación errónea (la proporción de predicciones incorrectas).
+
+### Tarea 3. Utilice el operador ~= para determinar la tasa de clasificación errónea. Almacene el resultado en una variable llamada *misclassrate*.
+
