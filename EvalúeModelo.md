@@ -34,3 +34,14 @@ En lugar de la precisión (la proporción de predicciones correctas), una métri
 
 ### Tarea 3. Utilice el operador ~= para determinar la tasa de clasificación errónea. Almacene el resultado en una variable llamada *misclassrate*.
 
+```MatLab
+iswrong = predictions ~= testdata.Character
+```
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2015-38-41.png)
+
+```MatLab
+misclassrate = sum(iswrong)/numel(predictions)
+```
+```
+misclassrate = 0.2000
+```
