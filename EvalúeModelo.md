@@ -45,3 +45,15 @@ misclassrate = sum(iswrong)/numel(predictions)
 ```
 misclassrate = 0.2000
 ```
+
+La tasa de precisión y de clasificación errónea ofrece un único valor para el rendimiento global del modelo, pero puede ser útil ver un desglose más detallado de las clases que el modelo confunde. Una ***matriz de confusión*** muestra el número de observaciones por cada combinación de clase real y predicha.
+
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2015-40-36.png)
+
+Una ***matriz de confusión*** se visualiza normalmente sombreando los elementos según su valor. A menudo, los elementos diagonales (las clasificaciones correctas) están sombreados en un color y el resto de elementos (las clasificaciones incorrectas) en otro color. Puede visualizar una matriz de confusión utilizando la función ***confusionchart***.
+
+```MatLab
+confusionchart(ytrue,ypred);
+```
+
+Donde ***ytrue*** es un vector de las ***clases conocidas*** e ***ypred*** es un vector de las ***clases predichas***.
