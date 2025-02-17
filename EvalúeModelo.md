@@ -57,3 +57,10 @@ confusionchart(ytrue,ypred);
 ```
 
 Donde ***ytrue*** es un vector de las ***clases conocidas*** e ***ypred*** es un vector de las ***clases predichas***.
+
+### Tarea 4. Utilice la función *confusionchart* para comparar *predictions* con las etiquetas conocidas (almacenadas en la variable *Character* en la tabla *testdata*).
+
+```MatLab
+confusionchart(testdata.Character, predictions)
+```
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2015-48-26.png)
