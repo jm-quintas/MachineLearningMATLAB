@@ -8,7 +8,7 @@
 load featuredata.mat
 testdata
 ```
-![]()
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2015-21-32.png)
 
 ```MatLab
 knnmodel = fitcknn(features,"Character","NumNeighbors",5);
