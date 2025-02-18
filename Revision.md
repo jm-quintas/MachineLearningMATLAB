@@ -14,3 +14,9 @@ features
 testdata
 ```
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2019-09-38.png)
+
+```MatLab
+%Solución:
+gscatter(features.AspectRatio, features.Duration, features.Character)
+```
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2019-14-38.png)
