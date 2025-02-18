@@ -27,4 +27,4 @@ El uso de la función ***read*** la primera vez importará los datos del primer 
 ```MatLab
 data = read(letterds)
 ```
-![]()
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-18%2018-48-30.png)
