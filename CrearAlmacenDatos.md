@@ -28,3 +28,11 @@ El uso de la función ***read*** la primera vez importará los datos del primer 
 data = read(letterds)
 ```
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-18%2018-48-30.png)
+
+### Tarea 3. Visualice los datos mediante la representación de la variable X de data en el eje horizontal y la variable Y en el eje vertical.
+
+```MatLab
+plot(data.X, data.Y)
+```
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-18%2018-53-47.png)
+
