@@ -20,3 +20,26 @@ testdata
 gscatter(features.AspectRatio, features.Duration, features.Character)
 ```
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2019-14-38.png)
+
+### Tarea 2. Utilice la función *fitcknn* para ajustar un modelo a los datos. Establezca la propiedad *NumNeighbors* en 5. Almacene el modelo en una variable llamada *knnmodel*. Utilice el modelo para predecir las clases para las observaciones almacenadas en *testdata*. Almacene las predicciones en una variable llamada *predictions*.
+
+```MatLab
+knnmodel = fitcknn(features, "Character", "NumNeighbors",5);
+predictions = predict(knnmodel, testdata);
+```
+
+La tabla ***testdata*** contiene las clases conocidas de la variable ***Character***.
+
+### Tarea 3. Calcule la tasa de clasificación errónea del modelo y cree una gráfica de confusión. Almacene la tasa de clasificación errónea en una variable llamada *misclass*.
+
+```MatLab
+misclass = sum(predictions ~= testdata.Character) / numel(predictions)
+```
+```
+misclass = 0.7692
+```
+
+```MatLab
+confusionchart(testdata.Character, predictions);
+```
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2019-31-07.png)
