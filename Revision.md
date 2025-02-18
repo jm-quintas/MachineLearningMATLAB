@@ -42,4 +42,4 @@ misclass = 0.7692
 ```MatLab
 confusionchart(testdata.Character, predictions);
 ```
-![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2019-31-07.png)
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2019-32-32.png)
