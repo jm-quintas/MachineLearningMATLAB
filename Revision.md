@@ -8,4 +8,9 @@ El archivo MAT ***featuredata13letters.mat*** contiene una tabla (***features***
 load featuredata13letters.mat
 features
 ```
-![]()
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2019-05-16.png)
+
+```MatLab
+testdata
+```
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-17%2019-09-38.png)
