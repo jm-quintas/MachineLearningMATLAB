@@ -12,4 +12,4 @@ Official Web site: https://matlabacademy.mathworks.com/es/details/machine-learni
 | 4 | Crear un modelo | [Repositorio](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/CrearModelo.md) |
 | 5 | Evalue el modelo | [Repositorio](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/Eval%C3%BAeModelo.md) |
 | 6 | Revisión | [Repositorio](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/Revision.md) |
-| 7 | Crear almacenes de datos | [Repositorio]() |
+| 7 | Crear almacenes de datos | [Repositorio](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/CrearAlmacenDatos.md) |
