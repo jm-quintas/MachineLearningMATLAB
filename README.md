@@ -11,4 +11,4 @@ Official Web site: https://matlabacademy.mathworks.com/es/details/machine-learni
 | 3 | Extraer características | [Repositorio](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/ExtraerCaracteristicas.md) |
 | 4 | Crear un modelo | [Repositorio](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/CrearModelo.md) |
 | 5 | Evalue el modelo | [Repositorio](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/Eval%C3%BAeModelo.md) |
-| 6 | Revisión | [Repositorio]() |
+| 6 | Revisión | [Repositorio](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/Revision.md) |
