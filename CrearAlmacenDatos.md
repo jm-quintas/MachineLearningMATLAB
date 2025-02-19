@@ -46,3 +46,12 @@ plot(data.X, data.Y)
 ```
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-18%2019-24-04.png)
 
+La función ***readall*** importa los datos de todos los archivos del almacén de datos a una sola variable.
+
+### Tarea 5. Utilice la función read para importar los datos de todos los archivos a una tabla llamada data. Visualice los datos mediante la representación de Y frente a X.
+
+```MatLab
+data = readall(letterds);
+plot(data.X, data.Y)
+```
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-18%2019-31-03.png)
