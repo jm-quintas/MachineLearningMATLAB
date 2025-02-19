@@ -36,3 +36,13 @@ plot(data.X, data.Y)
 ```
 ![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-18%2018-53-47.png)
 
+Al llamar de nuevo a la función ***read***, se importan los datos del siguiente archivo al almacén de datos.
+
+### Tarea 4. Importe y represente gráficamente los datos del segundo archivo.
+
+```MatLab
+data = read(letterds);
+plot(data.X, data.Y)
+```
+![](https://github.com/jm-quintas/MachineLearningMATLAB/blob/main/img/Captura%20desde%202025-02-18%2019-24-04.png)
+
